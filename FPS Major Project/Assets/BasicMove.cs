@@ -7,15 +7,13 @@ public class BasicMove : MonoBehaviour
 
     public float speed = 0.35f;
     public float jumpforce;
-    private bool grounded;
     private Rigidbody rb;
     Vector3 MoveDirection;
 
     // Use this for initialization
     void Start()
     {
-        jumpforce = 4f;
-        grounded = true;
+        jumpforce = 0.3f;
     }
 
     private void Awake()
@@ -26,7 +24,7 @@ public class BasicMove : MonoBehaviour
     void MovePlayer()
     {
         Vector3 yVelocity = new Vector3(0, rb.velocity.y, 0);
-        rb.velocity = rb.velocity = MoveDirection * speed * Time.deltaTime;
+        rb.velocity = MoveDirection * speed * Time.deltaTime;
         rb.velocity += yVelocity;
     }
 
@@ -37,7 +35,6 @@ public class BasicMove : MonoBehaviour
         float horizontalMovement = Input.GetAxisRaw("Horizontal");
         float verticalMovement = Input.GetAxisRaw("Vertical");
         MoveDirection = (horizontalMovement * transform.right + verticalMovement * transform.forward).normalized;
-
     }
 
 }

@@ -226,6 +226,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BasicMove.cs" />
+    <Compile Include="Assets\EnemyMoveTowardPlayer.cs" />
     <Compile Include="Assets\MouseLook.cs" />
   </ItemGroup>
   <ItemGroup>
