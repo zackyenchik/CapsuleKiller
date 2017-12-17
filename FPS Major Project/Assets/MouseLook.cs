@@ -5,20 +5,23 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour {
 
     public float sensitivity = 4f;
-    public float xRotation;
-    public float yRotation;
+    float xRotation;
+    float yRotation;
+    public Camera cam;
 
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        xRotation -= Input.GetAxis("Mouse Y") * sensitivity;
+        xRotation += Input.GetAxis("Mouse Y") * sensitivity;
         yRotation += Input.GetAxis("Mouse X") * sensitivity;
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        xRotation = Mathf.Clamp(xRotation, -90, 90);
-	}
+        transform.localEulerAngles = new Vector3(0, yRotation, 0);
+        cam.transform.localEulerAngles = new Vector3(-xRotation, yRotation, 0);
+        xRotation = Mathf.Clamp(xRotation, -60, 60);
+    }
 }

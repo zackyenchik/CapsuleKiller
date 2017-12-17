@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d62da67bbeba2e47b4bac9d7b497036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.45
+  speed: 1000
   jumpforce: 4
 --- !u!54 &950458493
 Rigidbody:
@@ -325,7 +325,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &1088523329
 GameObject:
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 1088523332}
   - component: {fileID: 1088523331}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,11 +385,11 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1088523329}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3aeb7dadc0c69d54d9e5777e9d5631f1, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 2.5}
+  m_Size: {x: 1, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1088523333
 MeshFilter:
@@ -504,8 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 5
-  xRotation: 0
-  yRotation: 0
+  cam: {fileID: 1385404541}
 --- !u!1 &1529925925
 GameObject:
   m_ObjectHideFlags: 0
