@@ -16,10 +16,10 @@ public class EnemyMoveTowardPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.LookAt(Player);
-        if (Vector3.Distance(transform.position, Player.position) >= mindistance)
+        transform.LookAt(Player); // Look at the player
+        if (Vector3.Distance(transform.position, Player.position) >= mindistance) // If the enemy is less than the minimum distance away from the player
         {
-            transform.position += transform.forward * movespeed * Time.deltaTime;
+            transform.position += transform.forward * movespeed * Time.deltaTime; // Move towards the player
         }
 	}
 }
