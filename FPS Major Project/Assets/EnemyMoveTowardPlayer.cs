@@ -21,5 +21,5 @@ public class EnemyMoveTowardPlayer : MonoBehaviour {
         {
             transform.position += transform.forward * movespeed * Time.deltaTime; // Move towards the player
         }
-	}
+    }
 }
