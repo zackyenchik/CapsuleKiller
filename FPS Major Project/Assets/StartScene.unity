@@ -448,8 +448,8 @@ GameObject:
   - component: {fileID: 962725999}
   - component: {fileID: 962725998}
   - component: {fileID: 962725997}
-  - component: {fileID: 962725996}
   - component: {fileID: 962726001}
+  - component: {fileID: 962725996}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 962725995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205810f6ee0a8344b840581d3ab6fd9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 666e2b52141d8c74c8b0208b0afa6b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 950458491}
