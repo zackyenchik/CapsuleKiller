@@ -404,7 +404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1000
-  jumpforce: 4
+  jumpVel: 400
+  maxSlope: 60
 --- !u!54 &950458493
 Rigidbody:
   m_ObjectHideFlags: 0
