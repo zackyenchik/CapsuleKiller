@@ -39,7 +39,7 @@ public class BasicMove : MonoBehaviour
     {
         Vector3 yVelocity = new Vector3(0, rb.velocity.y, 0); // Store the y-velocity because MoveDirection always has a y-velocity of 0
         rb.velocity = MoveDirection * speed * Time.deltaTime; // Move the Player in the direction given by the user at the desired speed
-        rb.velocity += yVelocity; // Add the y-velocity to the rigidbody'
+        rb.velocity += yVelocity; // Add the y-velocity to the rigidbody
         if (Input.GetButtonDown("Jump") && grounded) // If the space bar is pressed and the Player is on the ground
         {
             rb.AddRelativeForce(0, jumpVel, 0); // Add a relative force of the jump velocity on the y-axis
