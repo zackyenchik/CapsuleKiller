@@ -18,6 +18,7 @@ public class Target : MonoBehaviour {
     void DestroyEnemy()
     {
         Destroy(gameObject); // Destroy the enemy
+        ScoreSystem.score += 1; // Update the score
     }
 
 }
