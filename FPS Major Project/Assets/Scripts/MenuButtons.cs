@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
-    public void StartButton(string newGameLvl) // Used when the start button in the main menu is pressed
+    public void LoadScene(string newGameLvl) // Used when the start button in the main menu is pressed
     {
         SceneManager.LoadScene(newGameLvl);
     }

@@ -25,8 +25,8 @@ public class PauseGame : MonoBehaviour {
            Time.timeScale = 0f; // Set the time scale to 0 to pause the game's time
            PlayerCam.GetComponent<MouseLook>().enabled = false; // Disable the player's mouse look capabilities
            Gun.GetComponent<GunBehavior>().enabled = false; // Disable the gun
-            Cursor.lockState = CursorLockMode.None; // Unlock the cursor
-            Cursor.visible = true; // Make the cursor visible
+           Cursor.lockState = CursorLockMode.None; // Unlock the cursor
+           Cursor.visible = true; // Make the cursor visible
         }
 
         else
@@ -35,8 +35,8 @@ public class PauseGame : MonoBehaviour {
            PlayerCam.GetComponent<MouseLook>().enabled = true; // Enable the player's mouse look capabilities
            Gun.GetComponent<GunBehavior>().enabled = true; // Enable the gun
            Time.timeScale = 1f; // Set the game's time back to normal
-            Cursor.visible = false; // Make the cursor invisible
-            Cursor.lockState = CursorLockMode.Locked; // Lock the cursor to the middle of the screen
+           Cursor.visible = false; // Make the cursor invisible
+           Cursor.lockState = CursorLockMode.Locked; // Lock the cursor to the middle of the screen
         }
     }
 

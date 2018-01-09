@@ -5,21 +5,17 @@ using UnityEngine.UI;
 
 public class ScoreSystem : MonoBehaviour {
 
-    Text text;
+    Text ScoreText;
     public static int score;
-
-	// Use this for initialization
-	void Start () {	
-	}
 
     private void Awake()
     {
-        text = GetComponent<Text>(); // Create reference to the UI text component
+        ScoreText = GetComponent<Text>(); // Create reference to the UI text component                                                           
         score = 0; // Set the score to 0
     }
 
     // Update is called once per frame
     void Update () {
-        text.text = "Score: " + score; // Display the score
+        ScoreText.text = "Score: " + score; // Display the score
 	}
 }

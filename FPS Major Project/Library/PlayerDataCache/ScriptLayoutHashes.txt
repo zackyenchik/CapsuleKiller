@@ -43,7 +43,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-955954e06eede120d2c5cbd7fae73765 Assembly-CSharp.dll:.EnemyMovement
+b23a8aa20a3557e2b22b328979776f36 Assembly-CSharp.dll:.EnemyMovement
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -110,8 +110,9 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MenuButtons
-b9c97f852285cdae8385e19646186c99 Assembly-CSharp.dll:.PlayerHealth
+2f537961476df85b4ca1fab4a552fcb2 Assembly-CSharp.dll:.PlayerHealth
 3cce0eea1b2cfde93f72ddfb61ba9bd7 Assembly-CSharp.dll:.BasicMove
+08c4791bd699f8e9458bf15833714287 Assembly-CSharp.dll:.PauseGame
 27714b459e09515786bd7820494d14e8 Assembly-CSharp.dll:.GunBehavior
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -142,4 +143,4 @@ ca95c8958ca8e04880abfeb60cc1e73a Assembly-CSharp.dll:.Spawner
 829175d316c732639b55f7832bf9263d Assembly-CSharp.dll:.Target
 1937acc6b53d840bd8c883cb0be14e28 Assembly-CSharp.dll:.MouseLook
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreSystem
-08c4791bd699f8e9458bf15833714287 Assembly-CSharp.dll:.PauseGame
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HealthUI

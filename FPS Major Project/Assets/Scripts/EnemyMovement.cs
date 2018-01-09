@@ -5,9 +5,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour {
 
     Transform Player;
-    public float movespeed = 5f;
-    public float mindistance = 1f;
-    
+    public float movespeed = 6f;
 
     // Use this for initialization
     void Awake () {
@@ -16,14 +14,21 @@ public class EnemyMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        float move = movespeed * Time.deltaTime;
         transform.LookAt(Player); // Look at the player
-        if (Vector3.Distance(transform.position, Player.position) >= mindistance) // If the enemy is greater than the minimum distance away from the player
+        transform.position = Vector3.MoveTowards(transform.position, Player.position, move); // Move towards the player
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
         {
-            transform.position += transform.forward * movespeed * Time.deltaTime; // Move towards the player
+            movespeed = 0; // Stop the enemy from moving if they collide with the player
         }
-        else
-        {
-            transform.position += transform.forward * 0 * Time.deltaTime;
-        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        movespeed = 6; // Allow the enemy to move again when they stop colliding with the player
     }
 }
