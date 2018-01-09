@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
-    public void StartButton(string newGameLvl)
+    public void StartButton(string newGameLvl) // Used when the start button in the main menu is pressed
     {
         SceneManager.LoadScene(newGameLvl);
     }
 
-    public void ExitButton()
+    public void ExitButton() // Used when the exit buton in the main menu is pressed
     {
         Application.Quit();
     }

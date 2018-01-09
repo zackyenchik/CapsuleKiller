@@ -109,6 +109,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MenuButtons
 b9c97f852285cdae8385e19646186c99 Assembly-CSharp.dll:.PlayerHealth
 3cce0eea1b2cfde93f72ddfb61ba9bd7 Assembly-CSharp.dll:.BasicMove
 27714b459e09515786bd7820494d14e8 Assembly-CSharp.dll:.GunBehavior
@@ -141,4 +142,4 @@ ca95c8958ca8e04880abfeb60cc1e73a Assembly-CSharp.dll:.Spawner
 829175d316c732639b55f7832bf9263d Assembly-CSharp.dll:.Target
 1937acc6b53d840bd8c883cb0be14e28 Assembly-CSharp.dll:.MouseLook
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreSystem
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MenuButtons
+08c4791bd699f8e9458bf15833714287 Assembly-CSharp.dll:.PauseGame
