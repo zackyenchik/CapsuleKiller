@@ -8,6 +8,8 @@ public class GunBehavior : MonoBehaviour {
     public Camera cam;
     public ParticleSystem muzzleFlash;
     public AudioSource shot;
+
+    public LayerMask mask;
 	
 	// Update is called once per frame
 	void Update () {
@@ -15,6 +17,8 @@ public class GunBehavior : MonoBehaviour {
         {
             ShootGun(); // Shoot the gun
         }
+
+        print(mask.value);
 	}
 
     void ShootGun()
@@ -22,6 +26,8 @@ public class GunBehavior : MonoBehaviour {
         muzzleFlash.Play(); // Play the muzzle flash ParticleSystem
         shot.Play(); // Play the gunshot audio clip
         RaycastHit hit;
+
+
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit)) // If the raycast hits something
         {
             Target target = hit.transform.GetComponent<Target>(); // Store the Target component of the raycast hit as a Target variable

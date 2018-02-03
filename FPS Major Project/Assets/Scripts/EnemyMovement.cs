@@ -29,6 +29,6 @@ public class EnemyMovement : MonoBehaviour {
 
     private void OnCollisionExit(Collision collision)
     {
-        movespeed = 6; // Allow the enemy to move again when they stop colliding with the player
+        movespeed = 6f; // Allow the enemy to move again when they stop colliding with the player
     }
 }
