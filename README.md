@@ -1,4 +1,4 @@
-# Capsule Killer 2018
+# Capsule Killer v1.0
 A first-person shooter developed in Unity using C#.
 Upon starting the game, a capsule (enemy) will spawn at a random location every 2-5 seconds.
 The capsules move towards the player, doing damage upon collision. The player has the ability
