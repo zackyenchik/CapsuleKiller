@@ -114,7 +114,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 2f537961476df85b4ca1fab4a552fcb2 Assembly-CSharp.dll:.PlayerHealth
 3cce0eea1b2cfde93f72ddfb61ba9bd7 Assembly-CSharp.dll:.BasicMove
 08c4791bd699f8e9458bf15833714287 Assembly-CSharp.dll:.PauseGame
-27714b459e09515786bd7820494d14e8 Assembly-CSharp.dll:.GunBehavior
+485944c9b1d6e85141aacb292046a3d8 Assembly-CSharp.dll:.GunBehavior
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
