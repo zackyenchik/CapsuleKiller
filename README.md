@@ -8,3 +8,6 @@ The game has a fully functional main menu and pause menu.
 
 Here's a screenshot of the main menu:
 ![alt text](https://user-images.githubusercontent.com/34044719/36330063-36913886-1336-11e8-8d8a-09f47daf02b3.png "Main menu")
+
+Here's a screenshot in-game: 
+![alt text](https://user-images.githubusercontent.com/34044719/36330154-8e78a804-1336-11e8-940b-57497fe4d757.png "In-game screenshot")
