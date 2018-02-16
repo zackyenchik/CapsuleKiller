@@ -11,3 +11,6 @@ Here's a screenshot of the main menu:
 
 Here's a screenshot in-game: 
 ![alt text](https://user-images.githubusercontent.com/34044719/36330154-8e78a804-1336-11e8-940b-57497fe4d757.png "In-game screenshot")
+
+Here's what the pause menu looks like:
+![alt text](https://user-images.githubusercontent.com/34044719/36330200-c0026194-1336-11e8-998a-5d6ad841edeb.png "Pause menu")
